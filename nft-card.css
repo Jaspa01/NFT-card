@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+}
+
+.nft-card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.image img {
+    width: 260px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.image img:hover {
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+    filter: (30%);
+    background-color: rgb(99, 220, 236);
+    cursor: pointer;
+}
+
+.nft-details {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#name {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+/* #name:hover {
+    color: rgb(99, 220, 236);
+    cursor: pointer;
+} */
+
+
+/* #number:hover {
+    color: rgb(99, 220, 236);
+    cursor: pointer;
+} */
+
+.nft-details:hover {
+    color: rgb(99, 220, 236);
+    cursor: pointer;
+}
+
+#detail {
+    color:hsl(0, 1%, 64%);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+ .figures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.eth {
+    display: flex;
+}
+
+.time {
+    display: flex;
+}
+
+#ethereum {
+    margin-right: 5px;
+}
+
+#clock {
+    margin-right: 5px;
+}
+
+#value {
+    color: rgb(99, 220, 236);
+}
+
+#timer {
+    color:hsl(0, 1%, 64%);
+
+}
+
+.creator {
+    display: flex;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.location::after {
+    content: "";
+    display: inline-block;
+    width: 260px;
+    margin: 20 2.2em 0 10%;
+    vertical-align: top;
+    border-bottom: 1px solid hsl(0, 0%, 26%);
+    margin-top: 10px;
+}
+
+.creator img {
+    width: 28px;
+    margin-right: 15px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+
+.creator p {
+    margin-top: 5px;
+}
+
+.creator span {
+    color:hsl(0, 1%, 64%);
+}
